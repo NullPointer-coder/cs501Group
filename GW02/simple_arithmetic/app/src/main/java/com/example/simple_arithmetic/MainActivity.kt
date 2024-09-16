@@ -35,7 +35,7 @@ fun ArithmeticCalculator(modifier: Modifier = Modifier) {
     var result by remember { mutableStateOf<String?>(null) }
     var errorMessage by remember { mutableStateOf("") }
 
-    val operations = listOf("Addition", "Subtraction", "Multiplication", "Division", "Modulus")
+    val operations = listOf("Addition", "Subtraction", "Multiplication", "Division")
 
     Column(
         modifier = modifier
