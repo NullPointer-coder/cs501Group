@@ -97,10 +97,6 @@ fun ArithmeticCalculator(modifier: Modifier = Modifier) {
                         errorMessage = "Divide by zero not allowed"
                         null
                     }
-                    "Modulus" -> if (op2 != 0.0) (op1 % op2).toString() else {
-                        errorMessage = "Divide by zero not allowed"
-                        null
-                    }
                     else -> null
                 }
             }
